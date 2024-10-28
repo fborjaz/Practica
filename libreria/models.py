@@ -8,7 +8,6 @@ def validar_titulo(titulo):
     return titulo
 
 
-
 class Editorial(models.Model):
     nombre = models.CharField(max_length=100)
     
